@@ -1,0 +1,128 @@
+@import 'bourbon/_bourbon.scss';
+@import 'neat/_neat.scss';
+
+$break_small: 800px;
+
+.container a{
+    color: #3498DB;
+    text-decoration: none;
+    @media print {
+        color: #000;
+    }
+}
+
+body, html{
+    margin:0;
+    padding: 0;
+    @media print{
+        font-size: 12px;
+    }
+    padding-bottom: 50px;
+}
+
+header{
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin:0;
+    background-color: #3498DB;
+    color: #fff;
+    @media print {
+        background: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #000;
+    }
+    a{
+        color: #fff;
+        @media print{
+            color: #000;
+            text-decoration: none;
+        }
+    }
+}
+
+h2 {
+    font-weight: 300;
+    font-size: modular-scale(2);
+}
+
+.container{
+    @include outer-container;
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: "Lato", sans-serif;
+}
+
+.left-col{
+    @include span-columns(12);
+    @media print, (min-width: #{$break_small}){
+        @include span-columns(8);
+        @include omega();
+    }
+}
+
+.right-col{
+    @include span-columns(12);
+    @media print, (min-width: #{$break_small}){
+        @include span-columns(4);
+        @include omega();
+        float:right;
+    }
+}
+
+.dated-item{
+    .dated-item-head{
+        @include display(flex);
+        @include flex-direction(row);
+        @include justify-content(space-between);
+        @include flex-wrap(wrap);
+        .name{
+            display: inline-block;
+            margin:0;
+            padding: 0;
+            padding-right: 25px;
+        }
+        .details{
+            display: inline-block;
+        }
+    }
+}
+
+.skills-list{
+    h3{
+        margin-bottom: 0;
+    }
+    ul{
+        margin-top: 5px;
+        padding-left:0;
+        list-style:none;
+        li{
+            display: inline-block;
+            padding: 10px;
+            margin: 5px;
+            background: #e1f0fa;
+            @media print{
+                display: inline;
+                padding: 0;
+                margin: 0;
+                background: none;
+                &::after{
+                    content: ", ";
+                }
+                &:last-of-type::After{
+                    content: "";
+                }
+            }
+        }
+    }
+}
+
+.contact-container {
+    span{
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }    
+}

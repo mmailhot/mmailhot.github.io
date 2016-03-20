@@ -1,0 +1,48 @@
+{
+ :contact
+ {
+  :email "marc@mlht.ca"
+  :phone "(905) 650-0062"
+  :web "mlht.ca"
+  :twitter "marc_mlht"
+  :github "mmailhot"
+  }
+ :about
+ "I'm a Candian Student developer with a special interest in backend development, programming languages, functional programming, reactive programming, systems architecture, and natural language processing. Currently studying Computer Science at the University of Waterloo and working as a Co-op Web Developer at Kik Interactive. When not studying or working I develop side projects (mostly in Clojure) and enjoy cooking and politics. Currently seeking a 4 month internship beginning in September 2016."
+ :selected-projects
+ [
+  {
+   :name "Femto Chat"
+   :link "github.com/mmailhot/femto-chat"
+   :description
+   "A quick weekend project to learn D, femto-chat is a minimal IRC client. Of particular note is the <a href='https://github.com/mmailhot/femto-chat/blob/master/source/messages.d'>message (de)serialization code</a>, which makes use of advanced features of D templates to automatically generate highly optimized functions to convert between internal and IRC protocl representations of messages."
+  }
+  {
+   :name "Newsmash"
+   :link "github.com/mmailhot/newsmash"
+   :description
+   "Written in 36 hours for UofT Hacks 2015, Newsmash is a Clojure web application and Chrome extension designed to break <a href='https://en.wikipedia.org/wiki/Filter_bubble'>filter bubbles</a> by providing users with articles on the same topic by a variety of news sources. It scrapes news articles from a variety of news sources, analyses the text for key words and named entities, and groups articles on the same topic. Winner of both the IBM and Intel Mashery prizes at UofT Hacks 2015"
+   }
+  {
+   :name "Parrot"
+   :link "github.com/mmailhot/parrot"
+   :description
+   "Developed as part of team with two other developers and a designer at Hack the North 2015, Parrot is a voice-controlled, hands-free email interface to Gmail that allows users make use of otherwise unproductive time while commuting to listen and reply to emails. Runner up for the Wit.ai prize at Hack the North 2015."
+   }
+  ]
+ :other
+ {
+  "2016"
+  [
+   "Wrote a <a href='https://github.com/mmailhot/snake-game'>clojurescript snake game</a> following a tutorial to explore <a href='https://github.com/reagent-project/reagent'>reagent</a> and <a href='https://github.com/Day8/re-frame'>re-frame</a>."
+   "Built an algorithmic bond trading bot in D with a team for a <a href='http://eth1-waterloo.janestreet.com/'>Jane Street competition</a> in D, despite having very minimal D experience at the time."
+   ]
+  "2015"
+  [
+   "Starting playing around with <a href='https://github.com/mmailhot/om-next-tests'>om.next</a>, a novel new clojurescript frontend library."
+   "Built a markov chain <a href='https://github.com/mmailhot/debate-simulator'>Canadian political debate generator</a> for <a href='http://terriblehack.website/w2015/'>TerribleHacks Winter 2015</a>."
+   "Switched my primary development system to <a href='http://nixos.org'>NixOS</a>, a purely functional operating system, publishing my <a href='https://github.com/mmailhot/nixcfg'>configurations</a>."
+   "Wrote a <a href='https://github.com/mmailhot/Dumblisp'>very basic Scheme</a> in Haskell."
+  ]
+ }
+}
