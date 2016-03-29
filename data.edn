@@ -12,6 +12,12 @@
  :selected-projects
  [
   {
+   :name "Dayder"
+   :link "github.com/trishume/dayder"
+   :description
+   "Intially developed at TerribleHacks III, Dayder is a fast, flexible, system for finding correlating data series. I did the development work on the rust backend, including serializing a deserializing a custom efficient binary time series data format (which stored 5000 data series in under 900kb), and did the design and CSS for the frontend."
+   }
+  {
    :name "Femto Chat"
    :link "github.com/mmailhot/femto-chat"
    :description
