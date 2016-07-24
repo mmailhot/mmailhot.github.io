@@ -40,6 +40,7 @@
  {
   "2016"
   [
+   "Wrote <a href='https://github.com/trishume/LastSecondSlides'>LastSecondSlides</a> an real time slideshow generation tool for TerribleHacks, along with <a href='https://thume.ca'>Tristan Hume</a>"
    "Wrote a <a href='https://github.com/mmailhot/snake-game'>clojurescript snake game</a> following a tutorial to explore <a href='https://github.com/reagent-project/reagent'>reagent</a> and <a href='https://github.com/Day8/re-frame'>re-frame</a>."
    "Built an algorithmic bond trading bot in D with a team for a <a href='http://eth1-waterloo.janestreet.com/'>Jane Street competition</a> in D, despite having very minimal D experience at the time."
    ]
