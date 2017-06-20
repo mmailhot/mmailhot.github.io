@@ -8,7 +8,7 @@
   :github "mmailhot"
   }
  :about
- "I'm a Candian Student developer with a special interest in backend development, programming languages, functional programming, reactive programming, systems architecture, and natural language processing. Currently studying Computer Science at the University of Waterloo and working as a Development Intern at Jane Street Europe in London. When not studying or working I develop side projects (mostly in Clojure) and enjoy cooking and politics. Currently seeking a 4 month internship beginning in May 2017"
+ "I'm a Candian Student developer with a special interest in backend development, programming languages, functional programming, compilers, reactive programming, systems architecture, and natural language processing. Currently studying Computer Science at the University of Waterloo and working as a Platform Architecture Intern at Apple in Cupertino. When not studying or working I develop side projects and enjoy cooking and politics. Currently seeking a 4 month internship beginning in Jan 2018"
  :selected-projects
  [
   {
