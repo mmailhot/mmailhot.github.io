@@ -8,9 +8,15 @@
   :github "mmailhot"
   }
  :about
- "I'm a Candian Student developer with a special interest in backend development, programming languages, functional programming, compilers, reactive programming, systems architecture, and natural language processing. Currently studying Computer Science at the University of Waterloo and working as a Platform Architecture Intern at Apple in Cupertino. When not studying or working I develop side projects and enjoy cooking and politics. Currently seeking a 4 month internship beginning in Jan 2018"
+ "I'm a Candian Student developer with a special interest in backend development, programming languages, functional programming, compilers, reactive programming and systems architecture. Currently studying Computer Science at the University of Waterloo and working as a Developer Intern at Jane Street in NYC. When not studying or working I develop side projects and enjoy cooking and politics. Currently seeking a 4 month internship beginning in Sept 2018"
  :selected-projects
  [
+  {
+   :name "Flappy Goose"
+   :link "github.com/mmailhot/FlappyGoose"
+   :description
+   "Developed at TerribleHacks X, Flappy Goose is a Flappy Bird clone written for the Gameboy Advance in Rust."
+   }
   {
    :name "Dayder"
    :link "github.com/trishume/dayder"
@@ -38,6 +44,12 @@
   ]
  :other
  {
+  "2017"
+  [
+   "Developed Flappy Goose, a Gameboy Advance game written in Rust."
+   "Served as Secretary of the UW Computer Science Club."
+   "Worked at Apple as a Platform Architecture Intern, working on a high-performance hardware simulation compiler."
+  ]
   "2016"
   [
    "Wrote <a href='https://github.com/trishume/LastSecondSlides'>LastSecondSlides</a> an real time slideshow generation tool for TerribleHacks, along with <a href='https://thume.ca'>Tristan Hume</a>"
