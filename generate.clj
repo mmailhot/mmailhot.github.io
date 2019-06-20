@@ -39,7 +39,7 @@
    [:body
     [:header
      [:h1 "Marc Mailhot"]
-     [:p "Student Developer - University of Waterloo Computer Science"]
+     [:p "Software Developer"]
      (contact-html (:contact data))]
     [:div.container
      [:section#about
